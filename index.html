@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gruppo&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-color: rgb(6, 6, 90);
+            color: white;
+            font-family: 'Poppins';
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(14, 14, 51);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(192, 147, 235);
+        }
+
+        .left {
+            font-family: 'Cinzel Decorative';
+            font-size: 1.5rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blue;
+            height: 1.2px;
+            margin: 48px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+
+        }
+        .leftsection .btn{
+            padding: 12px;
+            font-size: 13px;
+            background-color: blue;
+            color:white;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(245, 122, 245);
+        }
+
+        #element {
+            color: rgb(203, 241, 34);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .secondsection .box {
+            display: flex;
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        .secondsection .verticle {
+            margin: 0 100px;
+            background-color: white;
+            height: 93px;
+            width: 1px;
+        }
+
+        .secondsection .verticle img {
+            height: 40px;
+            width: 51px;
+            display: block;
+            margin: -44px;
+            padding: -1px;
+            left: 19px;
+            position: relative;
+        }
+
+        .verticle-title h1 {
+            font-size: 1rem;
+            position: relative;
+            top: 47px;
+            width: 100px;
+        }
+
+        .verticle-title .year {
+            color: brown;
+            position: relative;
+            top: 42px;
+        }
+
+        .verticle-desc {
+            position: relative;
+            width: 162px;
+            font-size: 115%;
+            top: 88px;
+            color: cornflowerblue;
+        }
+
+        .verticle .verticle-desc1 {
+            position: relative;
+            width: 162px;
+            font-size: 115%;
+            top: 88px;
+            color: cornflowerblue;
+        }
+        footer{
+            background-color: black;
+            height: 80px;
+            text-align: center;
+            color: blueviolet;
+        }
+    </style>
+    <header>
+        <nav>
+            <div class="left">Taqui's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Us</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstSection">
+            <div class="leftsection">
+                Hi! I Am <span class="purple">Taqui</span>
+                <div>
+                    and i am a passionate
+                </div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <div class="secondsection">
+            <h1>Educational Background</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img src="col.png">
+                    <div class="verticle-title">
+                        <h1>Graduation</h1>
+                        <div class="year">(2018-2021)</div>
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quidem?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img src="col.png">
+                    <div class="verticle-title">
+                        <h1>HSC BOARD</h1>
+                        <div class="year">(2018-2021)</div>
+                    </div>
+                    <div class="verticle-desc1">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quidem?
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img src="col.png">
+                    <div class="verticle-title">
+                        <h1>SSC BOARD</h1>
+                        <div class="year">(2018-2021)</div>
+                    </div>
+                    <div class="verticle-desc1">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quidem?
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>All Right Reserved</h3>
+
+    </footer>
+       
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Grafic Desiner', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
